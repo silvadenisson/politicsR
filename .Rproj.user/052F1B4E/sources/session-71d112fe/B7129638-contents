@@ -3,7 +3,7 @@
 
 enp <- function(x){
 
-  enp <- 1 / sum(x^2)
+  enp <- 1 / hh(x)
 
   return(enp)
 }

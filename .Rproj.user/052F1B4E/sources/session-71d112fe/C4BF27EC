@@ -3,7 +3,7 @@
     "path": "~/Documents/GitHub/politicsR/R/tbi.R",
     "project_path": "R/tbi.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1156123966",
     "contents": "",
     "dirty": false,
     "created": 1675455784706.0,
@@ -13,16 +13,16 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "9,1",
+        "cursorPosition": "10,0",
         "scrollLine": "0",
         "docOutlineVisible": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1675455849,
+    "lastKnownWriteTime": 1675456404,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1675455849035,
+    "last_content_update": 1675456404034,
     "read_only": false,
     "read_only_alternatives": []
 }
