@@ -1,5 +1,7 @@
 #'
-#' @param x
+#' @param x (\code{integer}). This function calculate
+#' @export
+
 
 tbi <- function(x){
 

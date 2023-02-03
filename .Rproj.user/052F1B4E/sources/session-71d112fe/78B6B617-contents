@@ -1,5 +1,5 @@
 #'
-#' @param x (\code{integer}). This function calculate Efectiveness Number Party
+#' @param x (\code{integer}). This function calculate
 #' @export
 
 hh <- function(x){

@@ -1,6 +1,6 @@
 #'
-#' @param x
-
+#' @param x (\code{integer}). This function calculate
+#' @export
 
 Tag <- function(x){
 

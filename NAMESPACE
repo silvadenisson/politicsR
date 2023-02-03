@@ -1,3 +1,5 @@
 exportPattern("^[[:alpha:]]+")
 export(hh)
 export(enp)
+export(Tag)
+export(tbi)
