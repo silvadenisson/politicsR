@@ -10,10 +10,10 @@ frac(x)
 \item{x}{(\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
 }
 \value{
-\code{frac()} Retorna um vetor numérico com a estimativa da fracionalização partidária.
+`frac()` Retorna um vetor numérico com a estimativa da fracionalização partidária.
 }
 \description{
-\code{frac()} This function calculates the rate of electoral fractionalization according to
+`frac()` This function calculates the rate of electoral fractionalization according to
 Douglas Rae's (1971) proposal.
 }
 \examples{

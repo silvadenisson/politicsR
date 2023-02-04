@@ -1,6 +1,11 @@
+#' T Imbalance Index
 #'
-#' @param x (\code{integer}). This function calculate
+#'`tbi()`This function calculates T index of inbalance according to the proposition of Taagepera (1979).
+#'
+#' @param (\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
 #' @export
+#' @examples
+#' tbi(x)
 
 
 tbi <- function(x){
