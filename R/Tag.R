@@ -2,10 +2,15 @@
 #'
 #'`Tag()`This function calculates inbalance according to the proposition of Taagepera (1979).
 #'
-#' @param (\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
+#' @param x (\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
 #' @export
+#'
 #' @examples
-#' Tag(x)
+#' \dontrun{
+#' df <- Tag(x)
+#' }
+#'
+#'
 
 Tag <- function(x){
 

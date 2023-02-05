@@ -7,7 +7,9 @@
 #' @param y (\code{numeric}). Numeric veector with the seat shareof parties
 #' @export
 #' @examples
-#' lh(x, y)
+#' \dontrun{
+#' df <- lh(x,y)
+#' }
 
 lh <- function(x, y) {
   disprop <- sum(abs(x - y)) / 2

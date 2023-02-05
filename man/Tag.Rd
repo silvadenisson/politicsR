@@ -7,11 +7,15 @@
 Tag(x)
 }
 \arguments{
-\item{(\code{numeric}).}{A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
+\item{x}{(\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
 }
 \description{
 `Tag()`This function calculates inbalance according to the proposition of Taagepera (1979).
 }
 \examples{
-Tag(x)
+\dontrun{
+df <- Tag(x)
+}
+
+
 }

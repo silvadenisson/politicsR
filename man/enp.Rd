@@ -7,11 +7,13 @@
 enp(x)
 }
 \arguments{
-\item{(\code{numeric}).}{A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
+\item{x}{(\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
 }
 \description{
 `enp()` This function calculates the number of effective parties according to the proposition of Laakso and Taagepera (1979).
 }
 \examples{
-enp(x)
+\dontrun{
+df <- enp(x)
+}
 }

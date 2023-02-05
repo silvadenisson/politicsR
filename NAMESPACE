@@ -2,8 +2,11 @@
 
 export(Tag)
 export(enp)
-export(frac)
+export(fractionalization)
 export(hh)
 export(lh)
 export(lsq)
+export(nationalization)
 export(tbi)
+export(volatility)
+import(ineq)

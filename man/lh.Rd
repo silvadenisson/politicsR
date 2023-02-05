@@ -16,5 +16,7 @@ lh(x, y)
 seats as proposed by Loosemore and Hanby.
 }
 \examples{
-lh(x, y)
+\dontrun{
+df <- lh(x,y)
+}
 }

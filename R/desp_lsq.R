@@ -9,7 +9,9 @@
 #' @export
 #'
 #' @examples
-#' lsq(x, y)
+#' \dontrun{
+#' df <- lsq(x)
+#' }
 
 lsq <- function(x, y) {
   disprop <- sqrt(1 / 2 * (sum((x - y) ^ 2)))

@@ -7,11 +7,13 @@
 hh(x)
 }
 \arguments{
-\item{(\code{numeric}).}{A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
+\item{x}{(\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
 }
 \description{
 `hh()` This function calculates the Herfindahl–Hirschman concentration index.
 }
 \examples{
-hh(x)
+\dontrun{
+df <- hh(x)
+}
 }

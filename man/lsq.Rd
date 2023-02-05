@@ -16,5 +16,7 @@ lsq(x, y)
 seats by Least squares index method as proposed by Michael Gallagher.
 }
 \examples{
-lsq(x, y)
+\dontrun{
+df <- lsq(x)
+}
 }
