@@ -6,6 +6,10 @@
 #'
 #' @import utils
 #'
+#' @references
+#'
+#' Laakso, M., & Taagepera, R. (1979). “Effective” Number of Parties: A Measure with Application to West Europe. Comparative Political Studies, 12(1), 3–27. https://doi.org/10.1177/001041407901200101
+#'
 #' @export
 #' @examples
 #' \dontrun{

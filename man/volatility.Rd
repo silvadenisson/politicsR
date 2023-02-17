@@ -19,3 +19,6 @@ volatility(x, y)
 df <- volatility(x)
 }
 }
+\references{
+Pedersen, M. N. (1979). The dynamics of European party systems: changing patterns of electoral volatility. European journal of political research, 7(1), 1-26.
+}

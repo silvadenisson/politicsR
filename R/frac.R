@@ -6,9 +6,13 @@
 #' @param x (\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
 #'
 #'
-#' `fractionalization()` Retorna um vetor numérico com a estimativa da fracionalização partidária.
+#' `fractionalization()` Returns a numerical vector with the estimate of party fractionalization.
 #'
 #' @import utils
+#'
+#' @references
+#'
+#' Rae, D. W. (1971). Comment on Wildgen's The Measurement of Hyperfractionalization. Comp. Pol. Stud., 4, 244.
 #'
 #' @export
 #' @examples
