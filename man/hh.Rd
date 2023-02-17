@@ -17,3 +17,8 @@ hh(x)
 df <- hh(c(0.2, 0.3, 0.5))
 }
 }
+\references{
+Hirschmaņ, Albert O. (1945). National Power and Structure of Foreign Trade, Berkley: Univ of California Press.
+
+Herfindahl, Orris C. (1950). Concentration in the us steel industry. Unpublished PhD. Dissertation, Columbia University.
+}
