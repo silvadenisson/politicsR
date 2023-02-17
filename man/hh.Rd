@@ -12,6 +12,9 @@ hh(x)
 \description{
 `hh()` This function calculates the Herfindahl–Hirschman concentration index.
 }
+\details{
+The result of the index is a value between 0 and 1. The closer to zero the lower the concentration and the closer to 1 the higher the concentration.
+}
 \examples{
 \dontrun{
 df <- hh(c(0.2, 0.3, 0.5))

@@ -14,6 +14,10 @@
 #'
 #' Herfindahl, Orris C. (1950). Concentration in the us steel industry. Unpublished PhD. Dissertation, Columbia University.
 #'
+#' @details
+#'
+#' The result of the index is a value between 0 and 1. The closer to zero the lower the concentration and the closer to 1 the higher the concentration.
+#'
 #' @export
 #'
 #' @examples
