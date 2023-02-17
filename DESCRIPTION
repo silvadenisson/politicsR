@@ -4,7 +4,8 @@ Title: A R Toolbox For Calculating Political System Metrics
 Version: 0.1.0
 Author: c(
     person("Denisson", "Silva", , "denissoncsol@gmail.com", role = c("aut", "cre")),
-    person("Willber", "Nascimento", "nascimentowillber@protonmail.com", role = c("aut", "cre"))
+    person("Willber", "Nascimento", "nascimentowillber@protonmail.com", role = c("aut", "cre")),
+    person("Fernando", "Meireles", , "fmeireles@ufmg.br", role = c("aut", "cre"))
   )
 Maintainer: Denisson Silva <denissoncsol@gmail.com>
 Description: This package is a toolbox that helps researchers calculate indicators of political systems easily. 

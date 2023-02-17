@@ -4,6 +4,10 @@
 #'
 #' @param x (\code{numeric}). Numeric vector with the vote share for a parties in the election x.
 #' @param y (\code{numeric}). Numeric vector with the vote share for a parties in the election y.
+#'
+#'
+#' @import utils
+#'
 #' @export
 #'
 #' @examples
@@ -12,6 +16,11 @@
 #' }
 
 volatility <- function(x,y){
+
+  test_numeric(x)
+  test_numeric(y)
+
   volatility <- sum(abs(x - y))/2
+
   return(volatility)
 }

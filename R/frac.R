@@ -8,6 +8,8 @@
 #'
 #' `fractionalization()` Retorna um vetor numérico com a estimativa da fracionalização partidária.
 #'
+#' @import utils
+#'
 #' @export
 #' @examples
 #' \dontrun{
@@ -15,6 +17,8 @@
 #' }
 
 fractionalization <- function(x){
+
+  test_numeric(x)
 
   frac <- 1 - hh(x)
 

@@ -5,6 +5,9 @@
 #'
 #' @param x (\code{numeric}). Numeric vector with the vote share of parties
 #' @param y (\code{numeric}). Numeric veector with the seat shareof parties
+#'
+#' @import utils
+#'
 #' @export
 #' @examples
 #' \dontrun{
@@ -12,6 +15,11 @@
 #' }
 
 lh <- function(x, y) {
+
+  test_numeric(x)
+  test_numeric(y)
+
   disprop <- sum(abs(x - y)) / 2
+
   return(disprop)
 }

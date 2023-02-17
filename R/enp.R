@@ -4,6 +4,8 @@
 #'
 #' @param x (\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
 #'
+#' @import utils
+#'
 #' @export
 #' @examples
 #' \dontrun{
@@ -11,6 +13,8 @@
 #' }
 
 enp <- function(x){
+
+  test_numeric(x)
 
   enp <- 1 / hh(x)
 
