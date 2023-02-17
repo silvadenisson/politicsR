@@ -14,6 +14,6 @@ hh(x)
 }
 \examples{
 \dontrun{
-df <- hh(x)
+df <- hh(c(0.2, 0.3, 0.5))
 }
 }

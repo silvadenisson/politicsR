@@ -9,7 +9,7 @@
 #' @export
 #' @examples
 #' \dontrun{
-#' df <- enp(x)
+#' df <- enp(c(0.2, 0.3, 0.5))
 #' }
 
 enp <- function(x){

@@ -18,6 +18,6 @@ Douglas Rae's (1971) proposal.
 }
 \examples{
 \dontrun{
-df <- fractionalization(x)
+df <- fractionalization(c(0.2, 0.3, 0.5))
 }
 }

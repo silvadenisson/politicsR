@@ -10,10 +10,13 @@ tbi(x)
 \item{x}{(\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
 }
 \description{
-`tbi()`This function calculates T index of inbalance according to the proposition of Taagepera (1979).
+`tbi()` This function calculates T index of inbalance according to the proposition of Taagepera (1979).
 }
 \examples{
 \dontrun{
-df <- tbi(x)
+df <- tbi(c(0.2, 0.3, 0.5))
 }
+}
+\references{
+Taagepera, R. (1979). Inequality, Concentration, Imbalance. Political Methodology, 6(3), 275–291. http://www.jstor.org/stable/25791080
 }

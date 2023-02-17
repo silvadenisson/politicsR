@@ -13,7 +13,7 @@
 #' @export
 #' @examples
 #' \dontrun{
-#' df <- fractionalization(x)
+#' df <- fractionalization(c(0.2, 0.3, 0.5))
 #' }
 
 fractionalization <- function(x){
