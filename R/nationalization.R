@@ -2,7 +2,7 @@
 #'
 #' `nationalization()` This function calculates the party nationalization index as proposed by Jones e Mainwaring (2003).
 #'
-#' @param x (\code{numeric}). Numeric vector with the vote share for a party x in each of the electoral districts.
+#' @param x (\code{numeric}). Numeric vector with the vote share for a party x in each electoral district.
 #'
 #' @import utils
 #' @import ineq
@@ -11,14 +11,19 @@
 #'
 #' @examples
 #' \dontrun{
-#' df <- nationalization(x)
+#' x <- runif(27, 0.03, 0.2)
+#' nationalization(x)
 #' }
 
 
 nationalization <- function(x) {
 
+  # Inputs
   test_numeric(x)
 
-  return(1 - (ineq::ineq(x, type = 'Gini')))
+  # Calculate index
+  idx <- 1 - (ineq::ineq(x, type = 'Gini'))
 
+  # Return
+  return(idx)
 }
