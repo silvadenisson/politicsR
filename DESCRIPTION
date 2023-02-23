@@ -5,12 +5,13 @@ Version: 0.1.0
 Author: c(
     person("Denisson", "Silva", , "denissoncsol@gmail.com", role = c("aut", "cre")),
     person("Willber", "Nascimento", "nascimentowillber@protonmail.com", role = c("aut", "cre")),
-    person("Fernando", "Meireles", , "fmeireles@ufmg.br", role = c("aut", "cre"))
+    person("Fernando", "Meireles", , "fernando.meireles@iesp.uerj.br", role = c("aut", "cre"))
   )
 Maintainer: Denisson Silva <denissoncsol@gmail.com>
-Description: This package is a toolbox that helps researchers calculate indicators of political systems easily. 
-    We compile and make available in the package basic indicators about electoral system, 
-    party system, elections, parliamentary studies and others.
+Description: A toolbox to facilitate the calculation of political system indicators for researchers. 
+    This package offers a variety of basic indicators related to electoral systems, party systems, elections,
+    and parliamentary studies, as well as others.
+    
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true

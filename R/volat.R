@@ -1,9 +1,9 @@
 #' Electoral Volatility Index
 #'
-#' `volatility()` This function calculates electoral volatility index by Perdersen (1979).
+#' `volatility()` This function calculates electoral volatility index developed by Perdersen (1979).
 #'
-#' @param x (\code{numeric}). Numeric vector with the vote share for a parties in the election x.
-#' @param y (\code{numeric}). Numeric vector with the vote share for a parties in the election y.
+#' @param x (\code{numeric}). Numeric vector with the vote share for selected parties in a given election in t.
+#' @param y (\code{numeric}). Numeric vector with the vote share for selected parties in the t+1 election.
 #'
 #'
 #' @import utils
@@ -16,15 +16,20 @@
 #'
 #' @examples
 #' \dontrun{
-#' df <- volatility(x)
+#' x <- c(0.3, 0.7)
+#' y <- c(0.5, 0.5)
+#' volatility(x, y)
 #' }
 
-volatility <- function(x,y){
+volatility <- function(x, y){
 
+  # Input tests
   test_numeric(x)
   test_numeric(y)
 
-  volatility <- sum(abs(x - y))/2
+  # Calculate index
+  volatility <- sum(abs(x - y)) / 2
 
+  # Return
   return(volatility)
 }

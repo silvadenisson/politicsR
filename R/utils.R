@@ -4,6 +4,19 @@ test_numeric <- function(x){
   if(!is.numeric(x)) stop("Invalid input. Please, check the documentation and try again.")
 }
 
+# Test if a vector is a share (ie, sum to one)
+check_share <- function(x){
+
+  if(sum(x) != 1){
+
+    warning("Rouding numeric vectors to sum to one.")
+    x <- x / sum(x)
+  }
+
+  return(x)
+}
+
+
 # componente of Imbalance Index Taagapera
 Tag <- function(x){
 
