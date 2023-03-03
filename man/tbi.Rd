@@ -7,14 +7,18 @@
 tbi(x)
 }
 \arguments{
-\item{x}{(\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
+\item{x}{(\code{numeric}). A number vector with share of votes or seats. The vector should range from 0 to 1
+(if not, the function will automatically make the vector elements sum to one).}
 }
 \description{
-`tii()` This function calculates T index of inbalance according to the proposition of Taagepera (1979).
+`tbi()` This function calculates T index of inbalance according to the proposition of Taagepera (1979).
+}
+\details{
+The index ranges from 0 to 1, with 0 being total equilibrium, and 1 total imbalance. When used as an indicator of competitiveness, 0 is the scenario of total competitiveness and 1 is a scenario dominated by one or a few competitors.
 }
 \examples{
 \dontrun{
-df <- tbi(c(0.2, 0.3, 0.5))
+tbi(c(0.2, 0.3, 0.5))
 }
 }
 \references{

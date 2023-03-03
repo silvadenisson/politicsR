@@ -20,3 +20,6 @@ seats as proposed by Loosemore and Hanby.
 df <- lh(x,y)
 }
 }
+\references{
+Loosemore, J., & Hanby, V. (1971). The Theoretical Limits of Maximum Distortion: Some Analytic Expressions for Electoral Systems. British Journal of Political Science, 1(4), 467-477. doi:10.1017/S000712340000925X
+}

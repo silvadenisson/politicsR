@@ -22,7 +22,6 @@
 #' df <- hiperfrac(x)
 #' }
 
-
 hiperfrac <- function(x) {
 
   test_numeric(x)

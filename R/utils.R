@@ -17,6 +17,18 @@ check_share <- function(x){
 }
 
 
+test_factor <- function(x){
+
+  if(!is.factor(x)) stop("Invalid input. Please, check the documentation and try again.")
+}
+
+test_nfactor <-function(x){
+
+  if(length(levels(x)) > 2) stop("the vector must have up to two factor levels")
+
+}
+
+
 # componente of Imbalance Index Taagapera
 Tag <- function(x){
 

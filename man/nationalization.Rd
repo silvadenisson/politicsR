@@ -7,13 +7,17 @@
 nationalization(x)
 }
 \arguments{
-\item{x}{(\code{numeric}). Numeric vector with the vote share for a party x in each of the electoral districts.}
+\item{x}{(\code{numeric}). Numeric vector with the vote share for a party x in each electoral district.}
 }
 \description{
 `nationalization()` This function calculates the party nationalization index as proposed by Jones e Mainwaring (2003).
 }
 \examples{
 \dontrun{
-df <- nationalization(x)
+x <- runif(27, 0.03, 0.2)
+nationalization(x)
 }
+}
+\references{
+Jones, M. P., & Mainwaring, S. (2003). The Nationalization of Parties and Party Systems: An Empirical Measure and an Application to the Americas. Party Politics, 9(2), 139–166. https://doi.org/10.1177/13540688030092002
 }

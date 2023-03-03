@@ -11,13 +11,10 @@ Maintainer: Denisson Silva <denissoncsol@gmail.com>
 Description: A toolbox to facilitate the calculation of political system indicators for researchers. 
     This package offers a variety of basic indicators related to electoral systems, party systems, elections,
     and parliamentary studies, as well as others.
-    
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
 Imports:
     ineq,
-    Rdpack
-RdMacros: Rdpack
 BugReports: https://github.com/silvadenisson/politicsR/issues

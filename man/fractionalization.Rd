@@ -16,6 +16,9 @@ fractionalization(x)
 `fractionalization()` This function calculates the rate of electoral fractionalization according to
 Douglas Rae's (1971) proposal.
 }
+\details{
+The result of the index is a value between 0 and 1. The closer to zero the lower the fractionalization and the closer to 1 the higher the fractionalization.
+}
 \examples{
 \dontrun{
 df <- fractionalization(c(0.2, 0.3, 0.5))

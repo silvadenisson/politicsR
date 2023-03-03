@@ -7,16 +7,18 @@
 volatility(x, y)
 }
 \arguments{
-\item{x}{(\code{numeric}). Numeric vector with the vote share for a parties in the election x.}
+\item{x}{(\code{numeric}). Numeric vector with the vote share for selected parties in a given election in t.}
 
-\item{y}{(\code{numeric}). Numeric vector with the vote share for a parties in the election y.}
+\item{y}{(\code{numeric}). Numeric vector with the vote share for selected parties in the t+1 election.}
 }
 \description{
-`volatility()` This function calculates electoral volatility index by Perdersen (1979).
+`volatility()` This function calculates electoral volatility index developed by Perdersen (1979).
 }
 \examples{
 \dontrun{
-df <- volatility(x)
+x <- c(0.3, 0.7)
+y <- c(0.5, 0.5)
+volatility(x, y)
 }
 }
 \references{
