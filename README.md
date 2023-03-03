@@ -1,4 +1,6 @@
-# politicsR
+politicsR
+=====
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/silvadenisson/electionsBR?branch=master&svg=true)](https://ci.appveyor.com/project/silvadenisson/politicsr)
  
 `politicsR` is an R package designed to help political science researchers in calculating conventional political metrics. It offers a comprehensive set of functions for calculating a wide range of political system indicators, including electoral system efficiency, party system fragmentation, parliamentary voting patterns, an more.
 
