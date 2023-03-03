@@ -14,6 +14,11 @@
 #'
 #' Rae, D. W. (1971). Comment on Wildgen's The Measurement of Hyperfractionalization. Comp. Pol. Stud., 4, 244.
 #'
+#'
+#' @details
+#'
+#' The result of the index is a value between 0 and 1. The closer to zero the lower the fractionalization and the closer to 1 the higher the fractionalization.
+#'
 #' @export
 #' @examples
 #' \dontrun{

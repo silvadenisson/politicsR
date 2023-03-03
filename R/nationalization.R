@@ -7,6 +7,10 @@
 #' @import utils
 #' @import ineq
 #'
+#' @references
+#'
+#' Jones, M. P., & Mainwaring, S. (2003). The Nationalization of Parties and Party Systems: An Empirical Measure and an Application to the Americas. Party Politics, 9(2), 139–166. https://doi.org/10.1177/13540688030092002
+#'
 #' @export
 #'
 #' @examples
