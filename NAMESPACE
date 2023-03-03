@@ -3,6 +3,7 @@
 export(enp)
 export(fractionalization)
 export(hh)
+export(hiperfrac)
 export(lh)
 export(lsq)
 export(nationalization)
