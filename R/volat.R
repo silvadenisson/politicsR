@@ -1,6 +1,6 @@
 #' Electoral Volatility Index
 #'
-#' `volatility()` This function calculates electoral volatility index developed by Perdersen (1979).
+#' `volatility()` calculates electoral volatility index developed by Perdersen (1979).
 #'
 #' @param x (\code{numeric}). Numeric vector with the vote share for selected parties in a given election in t.
 #' @param y (\code{numeric}). Numeric vector with the vote share for selected parties in the t+1 election.

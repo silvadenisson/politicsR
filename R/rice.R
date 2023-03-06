@@ -1,8 +1,8 @@
-#' rice index
+#' Rice Index
 #'
-#' `rice` proposed by Rice (1925) is used to measure party cohesion in parliamentary votes by considering two groups pro and against.
+#' `rice` proposed by Rice (1925) is used to measure party cohesion in parliamentary votes by considering two voting blocks (usually government and opposition)
 #'
-#' @param x (\code{factor}). A factor vector with two levels
+#' @param x (\code{factor}). A factor vector with two levels (i.e., Yay or Nay)
 #'
 #' @references
 #'

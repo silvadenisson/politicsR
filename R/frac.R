@@ -1,9 +1,9 @@
 #' Fractionalization Index
 #'
-#' @description `fractionalization()` This function calculates the rate of electoral fractionalization according to
-#' Douglas Rae's (1971) proposal.
+#' @description `fractionalization()` calculates the rate of electoral fractionalization according to
+#' Douglas Rae's (1971) formula.
 #'
-#' @param x (\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
+#' @param x (\code{numeric}). A numeric vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
 #'
 #'
 #' `fractionalization()` Returns a numerical vector with the estimate of party fractionalization.
@@ -17,7 +17,7 @@
 #'
 #' @details
 #'
-#' The result of the index is a value between 0 and 1. The closer to zero the lower the fractionalization and the closer to 1 the higher the fractionalization.
+#' The result of the index is a value between 0 and 1. The closer to zero, the lower the fractionalization; the closer to 1, the higher the fractionalization.
 #'
 #' @export
 #' @examples

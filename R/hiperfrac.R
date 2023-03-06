@@ -1,6 +1,6 @@
-#' hyperfractionalization index
+#' Hyperfractionalization Index
 #'
-#' `hiperfrac` hyperfractionalization proposed by Kesselman (1966) and Wildgen (1971) is an alternative when the system has many small parties.
+#' `hiperfrac` calculates the hyperfractionalization index proposed by Kesselman (1966) and Wildgen (1971), which is useful for party system with many small parties.
 #'
 #' @param x (\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
 #'
@@ -12,14 +12,14 @@
 #'
 #' @details
 #'
-#' This index gives a greater role to small parties compared to the effective number of parties `enp`
+#' This index places more weights to small parties compared to the Effective Number of Political Parties Index (`enp`)
 #'
 #' @import utils
 #'
 #' @export
 #' @examples
 #' \dontrun{
-#' df <- hiperfrac(x)
+#' df <- hiperfrac(c(0.1, 0.1, 0.05, 0.05, 0.01, 0.04, 0.65))
 #' }
 
 hiperfrac <- function(x) {

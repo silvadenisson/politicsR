@@ -1,8 +1,8 @@
-#'The effective number of parties
+#' The Effective Number of Parties Index
 #'
-#'`enp()` This function calculates the number of effective parties according to the proposition of Laakso and Taagepera (1979).
+#'`enp()` calculates the number of Effective Political Parties according to the formula proposed by Laakso and Taagepera (1979).
 #'
-#' @param x (\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
+#' @param x (\code{numeric}). A numeric vector in the form of a proportion of votes or seats. The vector should between from 0 to 1.
 #'
 #' @import utils
 #'

@@ -1,10 +1,10 @@
-#' Least squares index
+#' Least Squares Index
 #'
-#' `lsq()` This function calculates the electoral disproportionality between votes and
+#' `lsq()` calculates the electoral disproportionality between votes and
 #'  seats by Least squares index method as proposed by Michael Gallagher.
 #'
 #' @param x (\code{numeric}). Numeric vector with the vote share of parties
-#' @param y (\code{numeric}). Numeric veector with the seat shareof parties
+#' @param y (\code{numeric}). Numeric vector with the seat share of parties
 #'
 #' @references
 #'
@@ -15,6 +15,8 @@
 #'
 #' @examples
 #' \dontrun{
+#' votes <- c(0.2, 0.2, 0.6)
+#' seats <- c(0.18, 0.17, 0.65)
 #' df <- lsq(x)
 #' }
 

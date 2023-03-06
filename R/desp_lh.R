@@ -1,10 +1,10 @@
-#' Loosemore–Hanby index
+#' Loosemore–Hanby Index
 #'
-#' `lh()` This function calculates the electoral disproportionality between votes and
-#'seats as proposed by Loosemore and Hanby.
+#' `lh()` calculates the electoral disproportionality between votes and
+#'seats as proposed by Loosemore and Hanby (1971).
 #'
 #' @param x (\code{numeric}). Numeric vector with the vote share of parties
-#' @param y (\code{numeric}). Numeric veector with the seat shareof parties
+#' @param y (\code{numeric}). Numeric vector with the seat share of parties
 #'
 #' @references
 #'
@@ -16,7 +16,9 @@
 #' @export
 #' @examples
 #' \dontrun{
-#' df <- lh(x,y)
+#' votes <- c(0.2, 0.2, 0.6)
+#' seats <- c(0.18, 0.17, 0.65)
+#' df <- lh(votes, seats)
 #' }
 
 lh <- function(x, y) {

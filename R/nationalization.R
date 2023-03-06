@@ -1,8 +1,8 @@
 #' Party Nationalization Index
 #'
-#' `nationalization()` This function calculates the party nationalization index as proposed by Jones e Mainwaring (2003).
+#' `nationalization()` calculates the Party Nationalization Index as proposed by Jones e Mainwaring (2003).
 #'
-#' @param x (\code{numeric}). Numeric vector with the vote share for a party x in each electoral district.
+#' @param x (\code{numeric}). A numeric vector with the vote share for a given party x in each electoral district.
 #'
 #' @import utils
 #' @import ineq
