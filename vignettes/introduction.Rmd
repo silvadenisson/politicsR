@@ -41,7 +41,13 @@ With the package properly installed, we'll load it to use its functions and data
 library(politicsR)
 ```
 
-To create plots and manipulate data, 
+To test the package's main functionality, we can use the three built-in datasets with electoral results by district in Brazil, Spain or Denmark. To load these data, simply use:
+
+```r
+data(denmark)
+data(brazil)
+data(spain)
+```
 
 # Usage
 
