@@ -12,7 +12,7 @@
 #'
 #' @references
 #'
-#' Rae, D. W. (1971). Comment on Wildgen's The Measurement of Hyperfractionalization. Comp. Pol. Stud., 4, 244.
+#' Rae, D. (1968). A note on the fractionalization of some European party systems. Comparative Political Studies, 1(3), 413-418.
 #'
 #'
 #' @details

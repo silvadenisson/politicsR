@@ -1,0 +1,75 @@
+---
+title: "Calculating Political System Metrics with `politicsR`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Calculating Political System Metrics with `politicsR`}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+# Introduction
+
+This vignette provides an introduction to `politicsR`. The package offers a variety of basic indicators related to electoral systems, party systems, elections, and parliamentary studies such as the Volatility Index by Perdersen (1979); the Herfindahl–Hirschman concentration index; and the Effective Political Parties proposed by Laakso and Taagepera (1979).
+
+# Installation
+
+You can install the package from CRAN with:
+
+```{r, eval=FALSE}
+install.packages("politicsR")
+```
+
+
+Or you can install the development version from [GitHub](https://github.com/silvadenisson/politicsR) to use new features and bug fixes with:
+
+```{r, eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("silvadenisson/politicsR")
+```
+
+With the package properly installed, we'll load it to use its functions and data in the rest of this vignette:
+
+```{r}
+library(politicsR)
+```
+
+To test the package's main functionality, we can use the three built-in datasets with electoral results by district in Brazil, Spain or Denmark. To load these data, simply use:
+
+```r
+data(denmark)
+data(brazil)
+data(spain)
+```
+
+# Usage
+
+## Example 1: Concentration and fragmentation
+
+## Example 2: Party system volatility
+
+## Example 3: Disproportionality between votes and seats
+
+## Example 4: Party system nationalization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
