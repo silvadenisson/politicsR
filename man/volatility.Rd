@@ -12,7 +12,7 @@ volatility(x, y)
 \item{y}{(\code{numeric}). Numeric vector with the vote share for selected parties in the t+1 election.}
 }
 \description{
-`volatility()` This function calculates electoral volatility index developed by Perdersen (1979).
+`volatility()` calculates electoral volatility index developed by Perdersen (1979).
 }
 \examples{
 \dontrun{

@@ -2,22 +2,24 @@
 % Please edit documentation in R/desp_lh.R
 \name{lh}
 \alias{lh}
-\title{Loosemore–Hanby index}
+\title{Loosemore–Hanby Index}
 \usage{
 lh(x, y)
 }
 \arguments{
 \item{x}{(\code{numeric}). Numeric vector with the vote share of parties}
 
-\item{y}{(\code{numeric}). Numeric veector with the seat shareof parties}
+\item{y}{(\code{numeric}). Numeric vector with the seat share of parties}
 }
 \description{
-`lh()` This function calculates the electoral disproportionality between votes and
-seats as proposed by Loosemore and Hanby.
+`lh()` calculates the electoral disproportionality between votes and
+seats as proposed by Loosemore and Hanby (1971).
 }
 \examples{
 \dontrun{
-df <- lh(x,y)
+votes <- c(0.2, 0.2, 0.6)
+seats <- c(0.18, 0.17, 0.65)
+df <- lh(votes, seats)
 }
 }
 \references{

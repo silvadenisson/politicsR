@@ -2,21 +2,23 @@
 % Please edit documentation in R/desp_lsq.R
 \name{lsq}
 \alias{lsq}
-\title{Least squares index}
+\title{Least Squares Index}
 \usage{
 lsq(x, y)
 }
 \arguments{
 \item{x}{(\code{numeric}). Numeric vector with the vote share of parties}
 
-\item{y}{(\code{numeric}). Numeric veector with the seat shareof parties}
+\item{y}{(\code{numeric}). Numeric vector with the seat share of parties}
 }
 \description{
-`lsq()` This function calculates the electoral disproportionality between votes and
+`lsq()` calculates the electoral disproportionality between votes and
  seats by Least squares index method as proposed by Michael Gallagher.
 }
 \examples{
 \dontrun{
+votes <- c(0.2, 0.2, 0.6)
+seats <- c(0.18, 0.17, 0.65)
 df <- lsq(x)
 }
 }

@@ -11,7 +11,7 @@ tbi(x)
 (if not, the function will automatically make the vector elements sum to one).}
 }
 \description{
-`tbi()` This function calculates T index of inbalance according to the proposition of Taagepera (1979).
+`tbi()` calculates T index of inbalance according to the proposition of Taagepera (1979).
 }
 \details{
 The index ranges from 0 to 1, with 0 being total equilibrium, and 1 total imbalance. When used as an indicator of competitiveness, 0 is the scenario of total competitiveness and 1 is a scenario dominated by one or a few competitors.

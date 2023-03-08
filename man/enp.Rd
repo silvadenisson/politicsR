@@ -2,15 +2,15 @@
 % Please edit documentation in R/enp.R
 \name{enp}
 \alias{enp}
-\title{The effective number of parties}
+\title{The Effective Number of Parties Index}
 \usage{
 enp(x)
 }
 \arguments{
-\item{x}{(\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
+\item{x}{(\code{numeric}). A numeric vector in the form of a proportion of votes or seats. The vector should between from 0 to 1.}
 }
 \description{
-`enp()` This function calculates the number of effective parties according to the proposition of Laakso and Taagepera (1979).
+`enp()` calculates the number of Effective Political Parties according to the formula proposed by Laakso and Taagepera (1979).
 }
 \examples{
 \dontrun{
