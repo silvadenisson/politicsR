@@ -1,6 +1,6 @@
 Package: politicsR
 Type: Package
-Title: A R Toolbox For Calculating Political System Metrics
+Title: An R Toolbox For Calculating Political System Metrics
 Version: 0.1.0
 Author: c(
     person("Denisson", "Silva", , "denissoncsol@gmail.com", role = c("aut", "cre")),
