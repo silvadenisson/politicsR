@@ -1,7 +1,7 @@
 #' Fractionalization Index
 #'
 #' @description `fractionalization()` calculates the rate of electoral fractionalization according to
-#' Douglas Rae's (1971) formula.
+#' Douglas Rae's (1968) formula.
 #'
 #' @param x (\code{numeric}). A numeric vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
 #'
