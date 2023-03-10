@@ -10,6 +10,6 @@ bibentry("Manual",
     textVersion  = paste("Silva, Denisson; Meireles, Fernando; Nascimento, Willber; Alexandre, José. (2023).",
         "politicsR.",
         "URL: https://github.com/silvadenisson/politicsR.",
-        "doi: https://doi.org/10.5281/zenodo.7716660")
+        "doi: 10.5281/zenodo.7716660")
 )
 
