@@ -3,10 +3,10 @@ Type: Package
 Title: Calculating Political System Metrics
 Version: 0.1.0
 Authors@R: c(
-    person("Denisson", "Silva", , "denissoncsol@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-2771-8146"),
-    person("Willber", "Nascimento", , "nascimentowillber@protonmail.com", role = c("aut"), comment = c(ORCID = "0000-0002-2257-8108"),
-    person("Fernando", "Meireles", , "fernando.meireles@iesp.uerj.br", role = c("aut"), comment = c(ORCID = "0000-0002-7027-2058"),
-    person("Jose", "Alexandre", , "jasjuniorj@gmail.com", role = c("aut"),   comment = c(ORCID = "0000-0002-6068-7460")
+    person("Denisson", "Silva", , "denissoncsol@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-2771-8146")),
+    person("Willber", "Nascimento", , "nascimentowillber@protonmail.com", role = c("aut"), comment = c(ORCID = "0000-0002-2257-8108")),
+    person("Fernando", "Meireles", , "fernando.meireles@iesp.uerj.br", role = c("aut"), comment = c(ORCID = "0000-0002-7027-2058")),
+    person("Jose", "Alexandre", , "jasjuniorj@gmail.com", role = c("aut"),  comment = c(ORCID = "0000-0002-6068-7460"))
   )
 Maintainer: Denisson Silva <denissoncsol@gmail.com>
 Description: A toolbox to facilitate the calculation of political system indicators for researchers. 
