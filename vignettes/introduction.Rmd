@@ -43,7 +43,7 @@ library(politicsR)
 
 To test the package's main functionality, we can use the three built-in datasets with electoral results by district in Brazil, Spain or Denmark. To load these data, simply use:
 
-```r
+```{r}
 data(denmark)
 data(brazil)
 data(spain)
