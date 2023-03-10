@@ -9,6 +9,8 @@
 [![AppVeyor Build
 Status](https://ci.appveyor.com/api/projects/status/3xp80q2vnwfxwhif/branch/main?svg=true)](https://ci.appveyor.com/project/silvadenisson/politicsr/branch/main)
 [![DOI](https://zenodo.org/badge/597187661.svg)](https://zenodo.org/badge/latestdoi/597187661)
+[![downloads](http://cranlogs.r-pkg.org/badges/grand-total/politicsR?color=blue)](https://r-pkg.org/pkg/politicsR)
+
 <!-- badges: end -->
 
 `politicsR` is an R package designed to help political science
