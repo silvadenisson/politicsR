@@ -43,3 +43,6 @@ reelected <- 12
 df <- renewal(seats, dropout, defeated, reelected)
 }
 }
+\references{
+Santos, W. G. dos . (2022). Da Poliarquia à Oligarquia? Eleições e demanda por renovação parlamentar. Sociedade E Estado, 12(01), 11–56. Recuperado de https://periodicos.unb.br/index.php/sociedade/article/view/44140
+}

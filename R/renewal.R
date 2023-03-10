@@ -9,6 +9,10 @@
 #'
 #' @param type (\code{character}). type of renewal to be calculated. by default it is \code{"all"}. But only one renewal can be chosen: \code{"grr"} (gross renewal rate), \code{"crr"} (compulsory renewal rate), \code{"nrr"} (net renewal rate).
 #'
+#' @references
+#'
+#' Santos, W. G. dos . (2022). Da Poliarquia à Oligarquia? Eleições e demanda por renovação parlamentar. Sociedade E Estado, 12(01), 11–56. Recuperado de https://periodicos.unb.br/index.php/sociedade/article/view/44140
+#'
 #' @details
 #'
 #' gross renewal rate = ((dropout + defeated) / seats) * 100
