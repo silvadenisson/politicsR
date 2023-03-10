@@ -44,5 +44,5 @@ df <- renewal(seats, dropout, defeated, reelected)
 }
 }
 \references{
-Santos, W. G. (1997). Da poliarquia à oligarquia? Eleições e demanda por renovação parlamentar. Sociedade e Estado, 12(01), 11-56.
+SANTOS, W. G. D. (2002). Votos e partidos: almanaque de dados eleitorais. Brasil e outros países. Rio de Janeiro: Editora FGV.
 }
