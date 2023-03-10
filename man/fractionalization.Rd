@@ -14,7 +14,7 @@ fractionalization(x)
 }
 \description{
 `fractionalization()` calculates the rate of electoral fractionalization according to
-Douglas Rae's (1971) formula.
+Douglas Rae's (1968) formula.
 }
 \details{
 The result of the index is a value between 0 and 1. The closer to zero, the lower the fractionalization; the closer to 1, the higher the fractionalization.
@@ -25,5 +25,5 @@ df <- fractionalization(c(0.2, 0.3, 0.5))
 }
 }
 \references{
-Rae, D. W. (1971). Comment on Wildgen's The Measurement of Hyperfractionalization. Comp. Pol. Stud., 4, 244.
+Rae, D. (1968). A note on the fractionalization of some European party systems. Comparative Political Studies, 1(3), 413-418.
 }

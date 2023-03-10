@@ -25,7 +25,7 @@ A data frame with rows and columns:
 denmark
 }
 \description{
-A dataset containing data on electoral results for the Danish lower chamber by party and by state from 1906 to 2019 (except the 1915 election). The variables include country name, year and month of election, electoral district name and code, party name and code, and party vote share.
+A dataset containing data on electoral results for the Danish lower chamber by party and by electoral district from 1906 to 2019 (except the 1915 election). The variables include country name, year and month of election, electoral district name and code, party name and code, and party vote share.
 }
 \details{
 This dataset is part of the Constituency-Level Elections Archive (CLEA) project,
