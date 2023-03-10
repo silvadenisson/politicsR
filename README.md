@@ -8,6 +8,7 @@
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/politicsR)](https://cran.r-project.org/package=politicsR)
 [![AppVeyor Build
 Status](https://ci.appveyor.com/api/projects/status/3xp80q2vnwfxwhif/branch/main?svg=true)](https://ci.appveyor.com/project/silvadenisson/politicsr/branch/main)
+[![DOI](https://zenodo.org/badge/597187661.svg)](https://zenodo.org/badge/latestdoi/597187661)
 <!-- badges: end -->
 
 `politicsR` is an R package designed to help political science
