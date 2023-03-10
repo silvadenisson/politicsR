@@ -11,7 +11,7 @@
 #'
 #' @references
 #'
-#' Santos, W. G. dos . (2022). Da Poliarquia à Oligarquia? Eleições e demanda por renovação parlamentar. Sociedade E Estado, 12(01), 11–56. Recuperado de https://periodicos.unb.br/index.php/sociedade/article/view/44140
+#' Santos, W. G. (1997). Da poliarquia à oligarquia? Eleições e demanda por renovação parlamentar. Sociedade e Estado, 12(01), 11-56.
 #'
 #' @details
 #'
