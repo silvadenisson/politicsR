@@ -1,3 +1,8 @@
+.onAttach <-
+  function(libname, pkgname) {
+    packageStartupMessage("\nTo cite politicsR in publications, use: citation('politicsR')")
+  }
+
 # Tests vector class inputs
 test_numeric <- function(x){
 

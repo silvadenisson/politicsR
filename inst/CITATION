@@ -1,0 +1,19 @@
+citHeader("To cite politicsR in publications, please use:")
+
+
+citEntry(entry = "Manual",
+    title = "politicsR",
+    author = personList(as.person("Denisson Silva" ),
+	                      as.person("Fernando Meireles"),
+                        as.person("Willber Nascimento"),
+                        as.person("José Alexandre")),
+    year = "2023",
+    url = "https://github.com/silvadenisson/politicsR",
+    doi = {"https://doi.org/10.5281/zenodo.7716661"},
+    textVersion  = paste("Silva, Denisson; Meireles, Fernando; Nascimento, Willber; Alexandre, José. (2023).",
+        "politicsR.",
+        "URL: https://github.com/silvadenisson/politicsR.",
+        "doi: https://doi.org/10.5281/zenodo.7716661")
+)
+
+
