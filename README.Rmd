@@ -18,6 +18,8 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/politicsR)](https://cran.r-project.org/package=politicsR)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/3xp80q2vnwfxwhif/branch/main?svg=true)](https://ci.appveyor.com/project/silvadenisson/politicsr/branch/main)
+[![DOI](https://zenodo.org/badge/57716660.svg)](https://zenodo.org/badge/latestdoi/7716660)
+
 <!-- badges: end -->
 
 `politicsR` is an R package designed to help political science researchers in calculating conventional party system and political metrics. It offers a comprehensive set of functions for calculating a wide range of indicators, including:
