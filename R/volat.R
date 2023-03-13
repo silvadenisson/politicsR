@@ -6,16 +6,16 @@
 #' @param y (\code{numeric}). Numeric vector with the vote share for selected parties in the t+1 election.
 #'
 #'
-#' @import utils
 #'
 #' @references
 #'
 #' Pedersen, M. N. (1979). The dynamics of European party systems: changing patterns of electoral volatility. European journal of political research, 7(1), 1-26.
 #'
+#' @import utils
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' x <- c(0.3, 0.7)
 #' y <- c(0.5, 0.5)
 #' volatility(x, y)

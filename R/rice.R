@@ -4,20 +4,21 @@
 #'
 #' @param x (\code{factor}). A factor vector with two levels (i.e., Yay or Nay)
 #'
+#' @return
+#'
+#' The index ranges from 0 to 1, where 1 is complete cohesion and 0 the formation of two equally sized subgroups within the party.
+#'
 #' @references
 #'
 #' Rice, S. A. (1925). The Behavior of Legislative Groups: A Method of Measurement. Political Science Quarterly, 40(1), 60–72. https://doi.org/10.2307/2142407
-#'
-#' @details
-#'
-#' The index ranges from 0 to 1, where 1 is complete cohesion and 0 the formation of two equally sized subgroups within the party.
 #'
 #' @import utils
 #'
 #' @export
 #' @examples
-#' \dontrun{
-#' df <- rice(x)
+#' \donttest{
+#' voting <- as.factor(c(rep("Yes", 90), rep("No", 10)))
+#' rice(voting)
 #' }
 
 rice <- function(x){

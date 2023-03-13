@@ -9,15 +9,16 @@ hh(x)
 \arguments{
 \item{x}{(\code{numeric}). A numeric vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
 }
+\value{
+The result of the index is a value between 0 and 1.
+The closer to zero, the lower the concentration; the closer to 1, the higher the concentration.
+}
 \description{
 `hh()` calculates the Herfindahl–Hirschman concentration index.
 }
-\details{
-The result of the index is a value between 0 and 1. The closer to zero, the lower the concentration; the closer to 1, the higher the concentration.
-}
 \examples{
-\dontrun{
-df <- hh(c(0.2, 0.3, 0.5))
+\donttest{
+hh(c(0.2, 0.3, 0.5))
 }
 }
 \references{

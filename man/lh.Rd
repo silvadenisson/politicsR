@@ -16,10 +16,10 @@ lh(x, y)
 seats as proposed by Loosemore and Hanby (1971).
 }
 \examples{
-\dontrun{
+\donttest{
 votes <- c(0.2, 0.2, 0.6)
 seats <- c(0.18, 0.17, 0.65)
-df <- lh(votes, seats)
+lh(votes, seats)
 }
 }
 \references{

@@ -25,6 +25,10 @@
 #'
 #' @source <https://electiondataarchive.org/>
 #'
+#' @return
+#' This dataset is part of the Constituency-Level Elections Archive (CLEA). Brazilian Lower Chamber Electoral Results
+#'
+#'
 #' @references
 #'
 #' Kollman, K., Hicken, A., Caramani, D., Backer, D., & Lublin, D. (2019). Constituency-level elections archive [data file and codebook]. Ann Arbor, MI: Center for Political Studies, University of Michigan [producer and distributor]. Retrieved from http://www.electiondataarchive.org.

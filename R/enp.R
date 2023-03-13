@@ -12,7 +12,7 @@
 #'
 #' @export
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' df <- enp(c(0.2, 0.3, 0.5))
 #' }
 

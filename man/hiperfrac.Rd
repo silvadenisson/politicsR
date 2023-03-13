@@ -16,8 +16,8 @@ hiperfrac(x)
 This index places more weights to small parties compared to the Effective Number of Political Parties Index (`enp`)
 }
 \examples{
-\dontrun{
-df <- hiperfrac(c(0.1, 0.1, 0.05, 0.05, 0.01, 0.04, 0.65))
+\donttest{
+ hiperfrac(c(0.1, 0.1, 0.05, 0.05, 0.01, 0.04, 0.65))
 }
 }
 \references{

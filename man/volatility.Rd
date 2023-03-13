@@ -15,7 +15,7 @@ volatility(x, y)
 `volatility()` calculates electoral volatility index developed by Perdersen (1979).
 }
 \examples{
-\dontrun{
+\donttest{
 x <- c(0.3, 0.7)
 y <- c(0.5, 0.5)
 volatility(x, y)

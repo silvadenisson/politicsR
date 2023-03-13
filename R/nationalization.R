@@ -14,7 +14,7 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' x <- runif(27, 0.03, 0.2)
 #' nationalization(x)
 #' }

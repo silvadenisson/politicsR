@@ -7,21 +7,20 @@
 fractionalization(x)
 }
 \arguments{
-\item{x}{(\code{numeric}). A numeric vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
-
-
-`fractionalization()` Returns a numerical vector with the estimate of party fractionalization.}
+\item{x}{(\code{numeric}). A numeric vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
+}
+\value{
+Returns a numerical vector with the estimate of party fractionalization.
+The result of the index is a value between 0 and 1.
+The closer to zero, the lower the fractionalization; the closer to 1, the higher the fractionalization.
 }
 \description{
 `fractionalization()` calculates the rate of electoral fractionalization according to
 Douglas Rae's (1968) formula.
 }
-\details{
-The result of the index is a value between 0 and 1. The closer to zero, the lower the fractionalization; the closer to 1, the higher the fractionalization.
-}
 \examples{
-\dontrun{
-df <- fractionalization(c(0.2, 0.3, 0.5))
+\donttest{
+fractionalization(c(0.2, 0.3, 0.5))
 }
 }
 \references{

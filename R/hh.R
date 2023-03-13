@@ -5,7 +5,12 @@
 #'
 #' @param x (\code{numeric}). A numeric vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
 #'
-#' @import utils
+#'
+#' @return
+#'
+#' The result of the index is a value between 0 and 1.
+#' The closer to zero, the lower the concentration; the closer to 1, the higher the concentration.
+#'
 #'
 #' @references
 #'
@@ -14,15 +19,12 @@
 #'
 #' Herfindahl, Orris C. (1950). Concentration in the us steel industry. Unpublished PhD. Dissertation, Columbia University.
 #'
-#' @details
-#'
-#' The result of the index is a value between 0 and 1. The closer to zero, the lower the concentration; the closer to 1, the higher the concentration.
-#'
+#' @import utils
 #' @export
 #'
 #' @examples
-#' \dontrun{
-#' df <- hh(c(0.2, 0.3, 0.5))
+#' \donttest{
+#' hh(c(0.2, 0.3, 0.5))
 #' }
 
 hh <- function(x){

@@ -34,13 +34,13 @@ compulsory renewal rate = (dropout / seats) * 100
 net renewal rate = (defeated / (reelected + defeated)) * 100
 }
 \examples{
-\dontrun{
+\donttest{
 seats <- 27
 dropout <- 9
 defeated <- 6
 reelected <- 12
 
-df <- renewal(seats, dropout, defeated, reelected)
+renewal(seats, dropout, defeated, reelected)
 }
 }
 \references{

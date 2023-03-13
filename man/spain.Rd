@@ -24,6 +24,9 @@ A data frame with rows and columns:
 \usage{
 spain
 }
+\value{
+This dataset is part of the Constituency-Level Elections Archive (CLEA) projec. Spanish Lower Chamber Electoral Results
+}
 \description{
 A dataset containing data on electoral results for the Spanish lower chamber by party and by electoral district from 1977 to 2019. The variables include country name, year and month of election, electoral district name and code, party name and code, and party vote share.
 }

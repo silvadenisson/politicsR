@@ -5,19 +5,19 @@
 #' @param x (\code{numeric}). A number vector with share of votes or seats. The vector should range from 0 to 1
 #' (if not, the function will automatically make the vector elements sum to one).
 #'
-#' @import utils
+#' @return
+#'
+#' The index ranges from 0 to 1, with 0 being total equilibrium, and 1 total imbalance. When used as an indicator of competitiveness, 0 is the scenario of total competitiveness and 1 is a scenario dominated by one or a few competitors.
+#'
 #'
 #' @references
 #'
 #' Taagepera, R. (1979). Inequality, Concentration, Imbalance. Political Methodology, 6(3), 275–291. http://www.jstor.org/stable/25791080
 #'
-#' @details
-#'
-#' The index ranges from 0 to 1, with 0 being total equilibrium, and 1 total imbalance. When used as an indicator of competitiveness, 0 is the scenario of total competitiveness and 1 is a scenario dominated by one or a few competitors.
-#'
+#' @import utils
 #' @export
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' tbi(c(0.2, 0.3, 0.5))
 #' }
 tbi <- function(x){

@@ -9,15 +9,16 @@ rice(x)
 \arguments{
 \item{x}{(\code{factor}). A factor vector with two levels (i.e., Yay or Nay)}
 }
+\value{
+The index ranges from 0 to 1, where 1 is complete cohesion and 0 the formation of two equally sized subgroups within the party.
+}
 \description{
 `rice` proposed by Rice (1925) is used to measure party cohesion in parliamentary votes by considering two voting blocks (usually government and opposition)
 }
-\details{
-The index ranges from 0 to 1, where 1 is complete cohesion and 0 the formation of two equally sized subgroups within the party.
-}
 \examples{
-\dontrun{
-df <- rice(x)
+\donttest{
+voting <- as.factor(c(rep("Yes", 90), rep("No", 10)))
+rice(voting)
 }
 }
 \references{

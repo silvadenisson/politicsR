@@ -28,20 +28,20 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' seats <- 27
 #' dropout <- 9
 #' defeated <- 6
 #' reelected <- 12
 #'
-#' df <- renewal(seats, dropout, defeated, reelected)
+#' renewal(seats, dropout, defeated, reelected)
 #' }
 
 renewal <- function(seats = NULL, dropout = NULL, defeated = NULL, reelected = NULL, type = "all"){
 
   if(type == "all"){
 
-    if(!is.null(seats) | !is.null(dropout) | !is.null(defeated) | !is.null(reelected)) stop("when type = 'all', all arguments are required")
+    if(is.null(seats) | is.null(dropout) | is.null(defeated) | is.null(reelected)) stop("when type = 'all', all arguments are required")
 
     test_numeric(seats)
     test_numeric(dropout)
@@ -62,7 +62,7 @@ renewal <- function(seats = NULL, dropout = NULL, defeated = NULL, reelected = N
 
     if (type == "grr"){
 
-      if(!is.null(seats) | !is.null(dropout) | !is.null(defeated)) stop("when type = 'grr', arguments seats, dropout and defeated are required")
+      if(is.null(seats) | is.null(dropout) | is.null(defeated)) stop("when type = 'grr', arguments seats, dropout and defeated are required")
 
       test_numeric(seats)
       test_numeric(dropout)
@@ -74,7 +74,7 @@ renewal <- function(seats = NULL, dropout = NULL, defeated = NULL, reelected = N
 
     } else if (type == "crr"){
 
-      if(!is.null(seats) | !is.null(dropout)) stop("when type = 'crr', arguments seats and dropout are required")
+      if(is.null(seats) | is.null(dropout)) stop("when type = 'crr', arguments seats and dropout are required")
 
       test_numeric(seats)
       test_numeric(dropout)
@@ -85,7 +85,7 @@ renewal <- function(seats = NULL, dropout = NULL, defeated = NULL, reelected = N
 
     } else if (type == "nrr"){
 
-      if(!is.null(defeated) | !is.null(reelected)) stop("when type = 'nrr', arguments defeated and reelected are required")
+      if(is.null(defeated) | is.null(reelected)) stop("when type = 'nrr', arguments defeated and reelected are required")
 
       test_numeric(defeated)
       test_numeric(reelected)

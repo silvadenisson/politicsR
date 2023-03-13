@@ -24,6 +24,9 @@ A data frame with rows and columns:
 \usage{
 denmark
 }
+\value{
+This dataset is part of the Constituency-Level Elections Archive (CLEA). Danish Lower Chamber Electoral Results
+}
 \description{
 A dataset containing data on electoral results for the Danish lower chamber by party and by electoral district from 1906 to 2019 (except the 1915 election). The variables include country name, year and month of election, electoral district name and code, party name and code, and party vote share.
 }

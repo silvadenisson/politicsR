@@ -13,7 +13,7 @@ enp(x)
 `enp()` calculates the number of Effective Political Parties according to the formula proposed by Laakso and Taagepera (1979).
 }
 \examples{
-\dontrun{
+\donttest{
 df <- enp(c(0.2, 0.3, 0.5))
 }
 }

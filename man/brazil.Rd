@@ -24,6 +24,9 @@ A data frame with rows and columns:
 \usage{
 brazil
 }
+\value{
+This dataset is part of the Constituency-Level Elections Archive (CLEA). Brazilian Lower Chamber Electoral Results
+}
 \description{
 A dataset containing data on electoral results for the Brazilian lower chamber
 by party and by state from 1990 to 2018. The variables include country name,

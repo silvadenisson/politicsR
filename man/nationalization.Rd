@@ -13,7 +13,7 @@ nationalization(x)
 `nationalization()` calculates the Party Nationalization Index as proposed by Jones e Mainwaring (2003).
 }
 \examples{
-\dontrun{
+\donttest{
 x <- runif(27, 0.03, 0.2)
 nationalization(x)
 }

@@ -16,10 +16,10 @@ lsq(x, y)
  seats by Least squares index method as proposed by Michael Gallagher.
 }
 \examples{
-\dontrun{
+\donttest{
 votes <- c(0.2, 0.2, 0.6)
 seats <- c(0.18, 0.17, 0.65)
-df <- lsq(x)
+lsq(votes, seats)
 }
 }
 \references{
