@@ -22,9 +22,9 @@
 #'
 #' @export
 #' @examples
-#' \donttest{
-#'  hiperfrac(c(0.1, 0.1, 0.05, 0.05, 0.01, 0.04, 0.65))
-#' }
+#'
+#' hiperfrac(c(0.1, 0.1, 0.05, 0.05, 0.01, 0.04, 0.65))
+#'
 
 hiperfrac <- function(x) {
 

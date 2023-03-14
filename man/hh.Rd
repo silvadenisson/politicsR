@@ -17,9 +17,9 @@ The closer to zero, the lower the concentration; the closer to 1, the higher the
 `hh()` calculates the Herfindahl–Hirschman concentration index.
 }
 \examples{
-\donttest{
+
 hh(c(0.2, 0.3, 0.5))
-}
+
 }
 \references{
 Hirschmaņ, Albert O. (1945). National Power and Structure of Foreign Trade, Berkley: Univ of California Press.

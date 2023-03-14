@@ -20,11 +20,11 @@ If the input is a proportion the result is between 0 and 1.
 `volatility()` calculates electoral volatility index developed by Perdersen (1979).
 }
 \examples{
-\donttest{
+
 x <- c(0.3, 0.7)
 y <- c(0.5, 0.5)
 volatility(x, y)
-}
+
 }
 \references{
 Pedersen, M. N. (1979). The dynamics of European party systems: changing patterns of electoral volatility. European journal of political research, 7(1), 1-26.

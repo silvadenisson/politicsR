@@ -23,11 +23,11 @@
 #'
 #' @export
 #' @examples
-#' \donttest{
+#'
 #' votes <- c(0.2, 0.2, 0.6)
 #' seats <- c(0.18, 0.17, 0.65)
 #' lh(votes, seats)
-#' }
+#'
 
 lh <- function(x, y) {
 

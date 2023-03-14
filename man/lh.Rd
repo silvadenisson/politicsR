@@ -21,11 +21,11 @@ If the input is a proportion the result is between 0 and 1.
 seats as proposed by Loosemore and Hanby (1971).
 }
 \examples{
-\donttest{
+
 votes <- c(0.2, 0.2, 0.6)
 seats <- c(0.18, 0.17, 0.65)
 lh(votes, seats)
-}
+
 }
 \references{
 Loosemore, J., & Hanby, V. (1971). The Theoretical Limits of Maximum Distortion: Some Analytic Expressions for Electoral Systems. British Journal of Political Science, 1(4), 467-477. doi:10.1017/S000712340000925X

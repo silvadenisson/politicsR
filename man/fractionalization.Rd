@@ -19,9 +19,9 @@ The closer to zero, the lower the fractionalization; the closer to 1, the higher
 Douglas Rae's (1968) formula.
 }
 \examples{
-\donttest{
+
 fractionalization(c(0.2, 0.3, 0.5))
-}
+
 }
 \references{
 Rae, D. (1968). A note on the fractionalization of some European party systems. Comparative Political Studies, 1(3), 413-418.
