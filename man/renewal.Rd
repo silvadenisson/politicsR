@@ -21,7 +21,11 @@ renewal(
 
 \item{reelected}{(\code{numeric}). Number of re-elected parliamentarians}
 
-\item{type}{(\code{character}). type of renewal to be calculated. by default it is \code{"all"}. But only one renewal can be chosen: \code{"grr"} (gross renewal rate), \code{"crr"} (compulsory renewal rate), \code{"nrr"} (net renewal rate).}
+\item{type}{(\code{character}). type of renewal to be calculated. by default it is \code{"all"}.
+But only one renewal can be chosen: \code{"grr"} (gross renewal rate), \code{"crr"} (compulsory renewal rate), \code{"nrr"} (net renewal rate).}
+}
+\value{
+A percentage which is the Renewal Rate. See parameter type.
 }
 \description{
 `renewal` calculates parliamentary renewal rates

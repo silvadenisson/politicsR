@@ -11,6 +11,11 @@ lh(x, y)
 
 \item{y}{(\code{numeric}). Numeric vector with the seat share of parties}
 }
+\value{
+If the input is a proportion the result is between 0 and 1.
+  But if the input is a percentage it is between 0 and 100.
+  In both cases the higher the value, the more disproportional the electoral system is.
+}
 \description{
 `lh()` calculates the electoral disproportionality between votes and
 seats as proposed by Loosemore and Hanby (1971).

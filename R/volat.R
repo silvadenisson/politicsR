@@ -5,7 +5,11 @@
 #' @param x (\code{numeric}). Numeric vector with the vote share for selected parties in a given election in t.
 #' @param y (\code{numeric}). Numeric vector with the vote share for selected parties in the t+1 election.
 #'
+#' @return
 #'
+#'  If the input is a proportion the result is between 0 and 1.
+#'  But if the input is a percentage it is between 0 and 100.
+#'  In both cases the higher the value the more volatile is the electoral system.
 #'
 #' @references
 #'

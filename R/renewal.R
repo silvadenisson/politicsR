@@ -7,10 +7,14 @@
 #' @param defeated (\code{numeric}). Number of defeated parliamentarians
 #' @param reelected (\code{numeric}). Number of re-elected parliamentarians
 #'
-#' @param type (\code{character}). type of renewal to be calculated. by default it is \code{"all"}. But only one renewal can be chosen: \code{"grr"} (gross renewal rate), \code{"crr"} (compulsory renewal rate), \code{"nrr"} (net renewal rate).
+#' @param type (\code{character}). type of renewal to be calculated. by default it is \code{"all"}.
+#' But only one renewal can be chosen: \code{"grr"} (gross renewal rate), \code{"crr"} (compulsory renewal rate), \code{"nrr"} (net renewal rate).
+#'
+#' @return
+#'
+#' A percentage which is the Renewal Rate. See parameter type.
 #'
 #' @references
-#'
 #'
 #' SANTOS, W. G. D. (2002). Votos e partidos: almanaque de dados eleitorais. Brasil e outros países. Rio de Janeiro: Editora FGV.
 #'

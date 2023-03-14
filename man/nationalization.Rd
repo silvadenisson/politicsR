@@ -9,6 +9,10 @@ nationalization(x)
 \arguments{
 \item{x}{(\code{numeric}). A numeric vector with the vote share for a given party x in each electoral district.}
 }
+\value{
+The result of the index is a value between 0 and 1.
+A high score indicates a high level of nationalization
+}
 \description{
 `nationalization()` calculates the Party Nationalization Index as proposed by Jones e Mainwaring (2003).
 }

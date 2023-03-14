@@ -9,12 +9,15 @@ enp(x)
 \arguments{
 \item{x}{(\code{numeric}). A numeric vector in the form of a proportion of votes or seats. The vector should between from 0 to 1.}
 }
+\value{
+A value corresponding to the number of effective parties. Normally we deprecate the fraction in the analysis, leaving only the integer.
+}
 \description{
 `enp()` calculates the number of Effective Political Parties according to the formula proposed by Laakso and Taagepera (1979).
 }
 \examples{
 \donttest{
-df <- enp(c(0.2, 0.3, 0.5))
+ enp(c(0.2, 0.3, 0.5))
 }
 }
 \references{

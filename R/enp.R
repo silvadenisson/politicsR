@@ -4,16 +4,20 @@
 #'
 #' @param x (\code{numeric}). A numeric vector in the form of a proportion of votes or seats. The vector should between from 0 to 1.
 #'
-#' @import utils
+#' @return
+#'
+#' A value corresponding to the number of effective parties. Normally we deprecate the fraction in the analysis, leaving only the integer.
 #'
 #' @references
 #'
 #' Laakso, M., & Taagepera, R. (1979). “Effective” Number of Parties: A Measure with Application to West Europe. Comparative Political Studies, 12(1), 3–27. https://doi.org/10.1177/001041407901200101
 #'
+#'
+#' @import utils
 #' @export
 #' @examples
 #' \donttest{
-#' df <- enp(c(0.2, 0.3, 0.5))
+#'  enp(c(0.2, 0.3, 0.5))
 #' }
 
 enp <- function(x){
