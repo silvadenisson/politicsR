@@ -16,10 +16,10 @@
 #'
 #' @export
 #' @examples
-#' \donttest{
+#'
 #' voting <- as.factor(c(rep("Yes", 90), rep("No", 10)))
 #' rice(voting)
-#' }
+#'
 
 rice <- function(x){
 

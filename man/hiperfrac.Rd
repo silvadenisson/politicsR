@@ -9,6 +9,9 @@ hiperfrac(x)
 \arguments{
 \item{x}{(\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.}
 }
+\value{
+A continued value, the larger the higher the fragmentation of the system
+}
 \description{
 `hiperfrac` calculates the hyperfractionalization index proposed by Kesselman (1966) and Wildgen (1971), which is useful for party system with many small parties.
 }
@@ -16,9 +19,9 @@ hiperfrac(x)
 This index places more weights to small parties compared to the Effective Number of Political Parties Index (`enp`)
 }
 \examples{
-\donttest{
- hiperfrac(c(0.1, 0.1, 0.05, 0.05, 0.01, 0.04, 0.65))
-}
+
+hiperfrac(c(0.1, 0.1, 0.05, 0.05, 0.01, 0.04, 0.65))
+
 }
 \references{
 Kesselman, M. (1966). French Local Politics: A Statistical Examination of Grass Roots Consensus. American Political Science Review, 60(4), 963-973. doi:10.2307/1953769

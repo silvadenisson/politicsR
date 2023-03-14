@@ -17,9 +17,10 @@
 #' @import utils
 #' @export
 #' @examples
-#' \donttest{
+#'
 #' tbi(c(0.2, 0.3, 0.5))
-#' }
+#'
+
 tbi <- function(x){
 
   # Inputs

@@ -16,10 +16,10 @@ The index ranges from 0 to 1, where 1 is complete cohesion and 0 the formation o
 `rice` proposed by Rice (1925) is used to measure party cohesion in parliamentary votes by considering two voting blocks (usually government and opposition)
 }
 \examples{
-\donttest{
+
 voting <- as.factor(c(rep("Yes", 90), rep("No", 10)))
 rice(voting)
-}
+
 }
 \references{
 Rice, S. A. (1925). The Behavior of Legislative Groups: A Method of Measurement. Political Science Quarterly, 40(1), 60–72. https://doi.org/10.2307/2142407

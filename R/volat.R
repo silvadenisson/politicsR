@@ -19,11 +19,11 @@
 #' @export
 #'
 #' @examples
-#' \donttest{
+#'
 #' x <- c(0.3, 0.7)
 #' y <- c(0.5, 0.5)
 #' volatility(x, y)
-#' }
+#'
 
 volatility <- function(x, y){
 

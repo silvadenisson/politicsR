@@ -32,14 +32,14 @@
 #' @export
 #'
 #' @examples
-#' \donttest{
+#'
 #' seats <- 27
 #' dropout <- 9
 #' defeated <- 6
 #' reelected <- 12
 #'
 #' renewal(seats, dropout, defeated, reelected)
-#' }
+#'
 
 renewal <- function(seats = NULL, dropout = NULL, defeated = NULL, reelected = NULL, type = "all"){
 
