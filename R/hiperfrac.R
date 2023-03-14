@@ -4,6 +4,10 @@
 #'
 #' @param x (\code{numeric}). A number vector in the form of a proportion of votes or seats. The vector should range from 0 to 1.
 #'
+#' @return
+#'
+#'  A continued value, the larger the higher the fragmentation of the system
+#'
 #' @references
 #'
 #' Kesselman, M. (1966). French Local Politics: A Statistical Examination of Grass Roots Consensus. American Political Science Review, 60(4), 963-973. doi:10.2307/1953769
