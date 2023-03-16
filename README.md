@@ -32,8 +32,7 @@ wide range of indicators, including:
 ## Installation
 
 ``` r
-# install.packages("politicsR")
-devtools::install_github("silvadenisson/politicsR")
+ install.packages("politicsR")
 ```
 
 You can install the development version of `politicsR` from
